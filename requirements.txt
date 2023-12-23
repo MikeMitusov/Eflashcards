@@ -1,0 +1,2 @@
+Reverso_API==0.0.1b3
+rich==13.7.0

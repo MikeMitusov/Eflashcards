@@ -36,7 +36,7 @@ em: export to markdown (md)
 ee: exit
 
 
-[yellow]Created by MikeMits. EasyCard v0.4.0-beta[/yellow]
+[yellow]Created by MikeMitusov mitsivimail@gmail.com. EasyCards[/yellow]
 """
 
 console.print(logo_text, justify="center", style="yellow on blue")

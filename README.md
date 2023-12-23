@@ -1,6 +1,22 @@
-# How to use
-> First enter the command from the menu.
-> Second follow the instructions
+# What is EasyCards
+EasyCards is a program with a friendly TUI interface for learning languages. Where you can create, read flashcards, create groups of flashcards, read them and much more. All features are presented in the following section
+
+# Features
+You can:
+- create groups of flashcards and delete them
+- Read groups of flashcard (read one group; read all groups; read random group)
+- create flashcards and delete them
+- translate words, phrases to different languages
+- export everything to markdown (.md)
+- read everything quickly
+Try it yourself!
+
+# Installation
+1. First install requirements.txt:
+```$ pip3 install -r requriements.txt```
+2. Second run `main.py` file:
+```$ python main.py```
+3. That's all!
 
 # Language names (for translation)
 > Attention! The translation function is in beta testing, it works only for words or exprassions. It does'nt work for sentences (reverso API doesn't provide this function at the moment).
