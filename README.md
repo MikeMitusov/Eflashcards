@@ -1,5 +1,5 @@
 # What is EasyCards
-EasyCards is a program with a friendly terminal interface for learning foreign languages. Where you can create, read flashcards, create groups of flashcards, read them and much more. All features are presented in the following section
+EasyCards is a program with a friendly terminal interface for learning foreign languages. Where you can create, read flashcards, create groups of flashcards, read them and much more. All features are presented in the following section <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/2d8a5bd5-222a-4c0b-a738-0719c510edf2)
 
 # Features
@@ -10,7 +10,7 @@ You can:
 - translate words, phrases to different languages
 - export everything to markdown (.md)
 - read everything quickly
-Try it yourself! Some examples:
+Try it yourself! Some examples: <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/20670681-48a6-47c1-aae7-7e6c19774f90)
 - All your cards save in data.json
 - Tou can create more than 1 million cards without any problems
