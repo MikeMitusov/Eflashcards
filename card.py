@@ -1,7 +1,7 @@
 import json
 
 
-def call_to_data():
+def call_to_data(): # Remove this soon
     try:
         with open("data.json", "r") as f:
             global data
