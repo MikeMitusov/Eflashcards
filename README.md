@@ -37,4 +37,4 @@ Some examples: <br>
 - [ ] Fix some bugs (Also сreate new issue for each bug)
 - [ ] Write documentation on how to use it
 - [ ] Add the ability to cancel a command while it is in progress
-- [ ] Add new cool features
+- [ ] Add new cool features [In progress...]
