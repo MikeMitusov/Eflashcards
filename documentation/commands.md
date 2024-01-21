@@ -21,4 +21,8 @@ For now you should delete your flash card manually in `data.json` <br> <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/d5a86e43-c12a-4142-b6cf-7ca46bbbf180) <br> <br>
 - `rf`: read flashcard <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/abb8d880-286d-49d8-ac67-47ee1e73b17d) <br> <br>
-
+- `re`: read everything <br>
+![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/e22a7b11-2b98-40dc-9412-c2722f00daa1) <br> <br>
+- `rrg`: read random group <br>
+![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/0ee83e0e-a1bb-4470-84ce-464437d5cb7a) <br> <br>
+- `rrf`: read random flashcard <br>
