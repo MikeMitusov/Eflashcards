@@ -26,3 +26,15 @@ For now you should delete your flash card manually in `data.json` <br> <br>
 - `rrg`: read random group <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/0ee83e0e-a1bb-4470-84ce-464437d5cb7a) <br> <br>
 - `rrf`: read random flashcard <br>
+![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/41d7149d-fab1-47ab-ba59-d3a4f881b60d) <br> <br>
+- rgf: read group quickly <br>
+![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/4a343322-da46-4b59-a63d-a770d21e5c34) <br> <br>
+- req: read everything quickly, it works like rgf but for all groups [IN PROGRESS...] <br>
+
+## Other
+- `tt`: translate word, works only with words and phrases
+- `m`: open menu
+- `dcs`: open README.md
+- `em`: export to markdown (.md)
+- `ee`: exit
+
