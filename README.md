@@ -1,4 +1,4 @@
-# What is EasyCards
+# What is Eflashcards
 EasyCards is a program with a friendly terminal interface for learning foreign languages. Where you can create, read flashcards, create groups of flashcards, read them and much more. All features are presented in the following section <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/2d8a5bd5-222a-4c0b-a738-0719c510edf2)
 
@@ -33,8 +33,8 @@ Some examples: <br>
 [languages](https://github.com/MikeMitusov/EasyCards/blob/main/languages.txt)
 
 # Goals for ❤️ **contributors** ❤️ and for me
-- [ ] Rewrite some "bad" code (I wrote this program much earlier than I published it)
-- [ ] Fix some bugs (Also сreate new issue for each bug)
+- [x] Rewrite some "bad" code (I wrote this program much earlier than I published it)
+- [x] Fix some bugs (Also сreate new issue for each bug)
 - [ ] Write documentation on how to use it [In progress...]
 - [ ] Add the ability to cancel a command while it is in progress
 - [ ] Add new cool features
