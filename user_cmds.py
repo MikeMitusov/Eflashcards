@@ -40,7 +40,11 @@ def dg():
 
 def df():
     fcard = features.CardFeatures()
-    fcard.delete(fcard=input("Name of the Card (fluent language): "), del_fcard=True)
+    fcard.delete(
+        group=input("Group: "),
+        fcard=input("Name of the Card (fluent language): "),
+        del_fcard=True,
+    )
     fcard.save()
 
 
