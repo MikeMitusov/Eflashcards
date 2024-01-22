@@ -42,68 +42,76 @@ ee: exit
 console.print(logo_text, justify="center", style="yellow on blue")
 console.print(Panel(text_navigation))
 
+
+def run_app(cmd):
+    if cmd == "cg":
+        user_cmds.cg()
+
+    elif cmd == "cf":
+        user_cmds.cf()
+
+    elif cmd == "dg":
+        user_cmds.dg()
+
+    elif cmd == "df":
+        user_cmds.df()
+
+    elif cmd == "dd":
+        user_cmds.dd()
+
+    elif cmd == "rg":
+        user_cmds.rg()
+
+    elif cmd == "rf":
+        user_cmds.rf()
+
+    elif cmd == "re":
+        user_cmds.re()
+
+    elif cmd == "rrg":
+        user_cmds.rrg()
+
+    elif cmd == "rrf":
+        user_cmds.rrf()
+
+    elif cmd == "em":
+        user_cmds.em()
+
+    elif cmd == "tt":
+        user_cmds.tt()
+
+    elif cmd == "dcs":
+        user_cmds.dcs()
+
+    elif cmd == "rgf":
+        user_cmds.rgf()
+
+    elif cmd == "req":
+        user_cmds.req()
+
+    elif cmd == "cgn":
+        user_cmds.cgn()
+
+    elif cmd == "cfn":
+        user_cmds.cfn()
+
+    elif cmd == "m":
+        console.print(logo_text, justify="center", style="yellow on blue")
+        console.print(Panel(text_navigation))
+
+    elif cmd == "ee":
+        sys.exit()
+    else:
+        console.print("[red]Incorrect command!")
+
+
 turned = True
+debug = False
 while turned:
-    try:
-        cmd = input("Command: ").strip().lower()
-        if cmd == "cg":
-            user_cmds.cg()
-
-        elif cmd == "cf":
-            user_cmds.cf()
-
-        elif cmd == "dg":
-            user_cmds.dg()
-
-        elif cmd == "df":
-            user_cmds.df()
-
-        elif cmd == "dd":
-            user_cmds.dd()
-
-        elif cmd == "rg":
-            user_cmds.rg()
-
-        elif cmd == "rf":
-            user_cmds.rf()
-
-        elif cmd == "re":
-            user_cmds.re()
-
-        elif cmd == "rrg":
-            user_cmds.rrg()
-
-        elif cmd == "rrf":
-            user_cmds.rrf()
-
-        elif cmd == "em":
-            user_cmds.em()
-
-        elif cmd == "tt":
-            user_cmds.tt()
-
-        elif cmd == "dcs":
-            user_cmds.dcs()
-
-        elif cmd == "rgf":
-            user_cmds.rgf()
-
-        elif cmd == "req":
-            user_cmds.req()
-
-        elif cmd == "cgn":
-            user_cmds.cgn()
-
-        elif cmd == "cfn":
-            user_cmds.cfn()
-
-        elif cmd == "m":
-            console.print(logo_text, justify="center", style="yellow on blue")
-            console.print(Panel(text_navigation))
-
-        elif cmd == "ee":
-            sys.exit()
-        else:
-            console.print("[red]Incorrect command!")
-    except Exception:
-        console.print("[red]Error!")
+    if debug:
+        run_app(cmd=input("Command: "))
+    else:
+        try:
+            run_app(cmd=input("Command: "))
+        except Exception as error:
+            console.print(f"[red bold]{type(error).__name__}: {error}")
