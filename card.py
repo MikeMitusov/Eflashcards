@@ -1,16 +1,11 @@
 import json
 
 
-def call_to_data(): # Remove this soon
-    try:
-        with open("data.json", "r") as f:
-            global data
-            data = json.load(f)
-    except Exception:
-        data = {}
-
-
-call_to_data()
+try:
+    with open("data.json", "r") as f:
+        data = json.load(f)
+except Exception:
+    data = {}
 
 
 class Card:
