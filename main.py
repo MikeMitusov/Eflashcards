@@ -5,7 +5,7 @@ import user_cmds
 
 console = Console(width=50)
 
-logo_text = "[white bold] EasyCards [/white bold]"
+logo_text = "[white bold] Eflashcards [/white bold]"
 
 text_navigation = """
 [blue bold]-----Create and change & Delete-----[/blue bold]
@@ -36,7 +36,7 @@ em: export to markdown (md)
 ee: exit
 
 
-[yellow]Created by MikeMitusov mitsivimail@gmail.com. EasyCards[/yellow]
+[yellow]Created by MikeMitusov Eflashcards[/yellow]
 """
 
 console.print(logo_text, justify="center", style="yellow on blue")
