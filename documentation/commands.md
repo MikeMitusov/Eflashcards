@@ -7,8 +7,7 @@
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/11450c26-e41b-4db2-92e2-bfa791df923d) <br> <br>
 - `dg`: delete group (With all flashcards) <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/b9184cdb-7466-474c-b2a1-4eebead8ada2) <br> <br>
-- `df`: delete a specific flashcard in a specific group [WORKING IN PROGRESS...] <br>
-For now you should delete your flash card manually in `data.json` <br> <br>
+- `df`: delete a specific flashcard in a specific group <br>
 - `dd`: delete all flashcards <br>
 ![image](https://github.com/MikeMitusov/EasyCards/assets/154631181/e62dc7b5-6339-40c6-adcf-161eb30ddadd) <br> <br>
 - `cgn`: change group name <br>
