@@ -99,7 +99,7 @@ Command: """
                 if "m" in cmd:
                     return None
 
-                console.print("[yellow bold]" + el + " - " + data[i][el] + "\n")
+                console.print(f"[yellow bold]{el} - {data[i][el]}" + "\n")
                 input("Press ENTER to continue..." + "\n")
 
     def read_random(self, is_group=False, is_fcard=False):
@@ -107,14 +107,14 @@ Command: """
             random_key = random.choice(list(data.keys()))
 
             for i in data[random_key]:
-                console.print("[yellow bold]" + i)
+                console.print(f"[yellow bold]{i}")
                 cmd = input("Press ENTER to show answer; m: menu ")
                 print("")
 
                 if "m" in cmd:
                     return None
 
-                console.print("[yellow bold]" + i + " - " + data[random_key][i] + "\n")
+                console.print(f"[yellow bold]{i} - {data[random_key][i]}" + "\n")
                 input("Press ENTER to continue..." + "\n")
 
         if is_fcard:
@@ -129,11 +129,7 @@ Command: """
                 return None
 
             console.print(
-                "[yellow bold]"
-                + random_card
-                + " - "
-                + data[random_key][random_card]
-                + "\n"
+                f"[yellow bold]{random_card} - {data[random_key][random_card]}" + "\n"
             )
             input("Press ENTER to continue..." + "\n")
 
@@ -142,7 +138,7 @@ Command: """
             for group in data:
                 f.write(f"# {group} \n")
                 for el in data[group]:
-                    f.write(f"{el} - {data[group][el]} \n")
+                    f.write(f"{el} - {data[group][el]}" + "\n")
 
     def translate_text(self, text, from_lang, to_lang):
         from reverso_api.context import ReversoContextAPI
@@ -176,8 +172,8 @@ Command: """
     def read_all_fast(self):
         for i in data:
             for el in data[i]:
-                console.print("[green]" + el)
-                console.print("[green]" + el + " - " + data[i][el] + "\n")
+                console.print(f"[green]{el}")
+                console.print(f"[green]{el} - {data[i][el]}" + "\n")
 
     def change_group(self, old_group, new_group):
         data[new_group] = data[old_group]
