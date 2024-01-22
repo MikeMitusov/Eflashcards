@@ -172,7 +172,6 @@ Command: """
     def read_all_fast(self):
         for i in data:
             for el in data[i]:
-                console.print(f"[green]{el}")
                 console.print(f"[green]{el} - {data[i][el]}" + "\n")
 
     def change_group(self, old_group, new_group):
