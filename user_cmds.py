@@ -118,7 +118,6 @@ def rgf():
 
 
 def req():
-    text = input("Group: ")
     fcard = features.CardFeatures()
     fcard.read_all_fast()
 
